@@ -357,7 +357,7 @@ class App extends Component {
         </div>
 
         <div>
-          <ul>
+          <ul className="two">
             {tabsList.map(eachTab => (
               <li key={eachTab.tabId}>
                 <button
